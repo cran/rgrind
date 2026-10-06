@@ -1,0 +1,30 @@
+Package: rgrind
+Type: Package
+Title: Gamified Algorithmic and Data Wrangling Challenges for R
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Uwakmfon", "Paul",
+      email = "uwakmfon31@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: An in-console, gamified learning and practice engine for R.
+    Solve algorithmic and data-wrangling challenges directly in the R
+    console, get instant styled feedback with worked explanations, and
+    track your progress locally with a solving streak, attempt history,
+    and an activity heatmap.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: cli
+Config/roxygen2/version: 8.1.0
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0), tibble
+Config/testthat/edition: 3
+URL: https://devwebwacky.github.io/rgrind/
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2026-09-24 23:36:27 UTC; Wacky
+Author: Uwakmfon Paul [aut, cre]
+Maintainer: Uwakmfon Paul <uwakmfon31@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-06 07:40:09 UTC
